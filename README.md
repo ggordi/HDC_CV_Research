@@ -1,8 +1,8 @@
 This codebase is built upon the key vector.py file, which defines functions for creating and performing key operations with hyperdimensional binary vectors (hypervectors). 
 
-The goal of this project is to create recreate a classic image classification model, but built with solely hypervectors (vectors of length ~10,000) instead of a multilayer CNN.
+The goal of this project is to create recreate a classic image classification model, but built with solely binary hypervectors (vectors of length ~10,000 whose only possible elements are 0 and 1) instead of a multilayer CNN.
 
-By harnessing the unique properties of randomly generated vectors within a high dimensional space, it was possible to create meaningful representational relationships that enable supervised learning purely with binary vectors. 
+By harnessing the unique properties and behaviors of randomly generated vectors within a high dimensional space, it was possible to create meaningful representational relationships that enable supervised learning purely with binary hypervectors. 
 
 A large portion of this project is exploring different encoding methods for image data, which are explored in `/hil_torch/modalities`. The simplest approach was encoding via spatial intestity, but other, more interesting approaches (such as encoding via histogram or the encoding of convolutional features), are also explored.
 
